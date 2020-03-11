@@ -23,5 +23,22 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.3" />
+    <preference name="SplashScreenDelay" value="4000" />
+    <splash density="land-hdpi" src="res/screen/android/screen-land-hdpi.png" />
+    <splash density="land-ldpi" src="res/screen/android/screen-land-ldpi.png" />
+    <splash density="land-mdpi" src="res/screen/android/screen-land-mdpi.png" />
+    <splash density="land-xhdpi" src="res/screen/android/screen-land-xhdpi.png" />
+    <splash density="hdpi" src="res/screen/android/screen-hdpi.png" />
+    <splash density="ldpi" src="res/screen/android/screen-ldpi.png" />
+    <splash density="mdpi" src="res/screen/android/screen-mdpi.png" />
+    <splash density="xhdpi" src="res/screen/android/screen-xhdpi.png" />
+    <platform name="android">
+        <icon density="mdpi" src="res/icon/android/TODO-mdpi.png" />
+        <icon density="ldpi" src="res/icon/android/TODO-ldpi.png" />
+        <icon density="hdpi" src="res/icon/android/TODO-hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/TODO-xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/TODO-xxhdpi.png" />
+    </platform>
     <engine name="android" spec="^7.1.4" />
 </widget>

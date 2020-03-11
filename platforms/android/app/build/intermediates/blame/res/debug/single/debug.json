@@ -1,11 +1,7 @@
 [
     {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png"
-    },
-    {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
+        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_screen.png.flat",
+        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-xhdpi/screen.png"
     },
     {
         "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
@@ -14,22 +10,6 @@
     {
         "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_screen.png.flat",
         "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png"
-    },
-    {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png"
-    },
-    {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
-    },
-    {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
-    },
-    {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png"
     },
     {
         "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
@@ -48,10 +28,6 @@
         "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-mdpi_screen.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-port-mdpi/screen.png"
-    },
-    {
         "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
         "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/xml/config.xml"
     },
@@ -60,16 +36,20 @@
         "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
-    },
-    {
-        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxxhdpi_screen.png.flat",
-        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png"
+        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi_screen.png.flat",
+        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-ldpi/screen.png"
     },
     {
         "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
         "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
+    },
+    {
+        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_screen.png.flat",
+        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-hdpi/screen.png"
+    },
+    {
+        "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_screen.png.flat",
+        "source": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/src/main/res/drawable-mdpi/screen.png"
     },
     {
         "merged": "/Users/user/Documents/GitHub/Todo-App-Mobile-Final/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
