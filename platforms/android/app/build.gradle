@@ -18,6 +18,7 @@
 */
 
 apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'  // Google Services plugin
 
 buildscript {
     repositories {
@@ -91,6 +92,8 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
+apply from: "../cordova-support-google-services/todo-build.gradle"
+apply from: "../phonegap-plugin-multidex/todo-multidex.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -265,6 +268,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
+    compile "com.android.support:support-v13:27.+"
+    compile "me.leolin:ShortcutBadger:1.1.17@aar"
+    compile "com.google.firebase:firebase-messaging:17.0.+"
     // SUB-PROJECT DEPENDENCIES END
 }
 
