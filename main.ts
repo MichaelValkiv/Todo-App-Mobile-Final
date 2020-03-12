@@ -1,4 +1,9 @@
 import { platformBrowserDynamic } from 'angular-ts-decorators';
 import { TodoModule } from "./src/todo.module";
 
-platformBrowserDynamic().bootstrapModule(TodoModule);
+const onDeviceReady = () => {
+    platformBrowserDynamic().bootstrapModule(TodoModule);
+};
+
+document.addEventListener('deviceready', onDeviceReady, false);
+
