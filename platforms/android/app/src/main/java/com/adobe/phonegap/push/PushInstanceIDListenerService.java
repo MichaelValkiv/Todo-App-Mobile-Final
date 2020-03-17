@@ -6,16 +6,16 @@ import android.content.SharedPreferences;
 import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
-//import com.google.firebase.iid.FirebaseInstanceIdService;
+import com.google.firebase.iid.FirebaseInstanceIdService;
 
 import org.json.JSONException;
 
 import java.io.IOException;
 
-public class PushInstanceIDListenerService implements PushConstants {
+public class PushInstanceIDListenerService extends FirebaseInstanceIdService implements PushConstants {
     public static final String LOG_TAG = "Push_InsIdService";
 
-//    @Override
+    @Override
     public void onTokenRefresh() {
         // Get updated InstanceID token.
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();

@@ -296,11 +296,10 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
-    //noinspection GradleCompatible
     implementation 'androidx.legacy:legacy-support-v13:1.0.0'
     implementation "me.leolin:ShortcutBadger:1.1.17@aar"
-//    implementation "com.google.firebase:firebase-messaging:17.0.+"
-    implementation 'com.google.firebase:firebase-messaging:20.1.2'
+    implementation "com.google.firebase:firebase-messaging:17.0.+"
+
     // SUB-PROJECT DEPENDENCIES END
 }
 
