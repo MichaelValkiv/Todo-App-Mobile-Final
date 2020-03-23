@@ -1,8 +1,6 @@
 import { Component, OnInit } from 'angular-ts-decorators';
 import { ItemListService } from '../../services/item-list.service';
 import { Todo } from '../../interfaces/todo.interface';
-import 'phonegap-plugin-push/types';
-
 
 @Component({
     selector: 'todo-list',
@@ -45,9 +43,5 @@ export class TodoListComponent implements OnInit{
                 console.log(err);
             }
         )
-    }
-
-    public pushNotifications(): void {
-
     }
 }
